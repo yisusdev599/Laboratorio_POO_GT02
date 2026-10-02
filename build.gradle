@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id 'application'
 }
 
 group 'org.laboratorio2'
@@ -10,8 +11,28 @@ repositories {
 }
 
 dependencies {
+    implementation 'com.google.code.gson:gson:2.10.1'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+}
+
+application {
+    mainClass = 'org.laboratorio4.controller.Main'
+}
+
+// Una tarea independiente por laboratorio: ./gradlew runLab2 | runLab4
+tasks.register('runLab2', JavaExec) {
+    group = 'application'
+    description = 'Ejecuta org.laboratorio2.controller.Main'
+    classpath = sourceSets.main.runtimeClasspath
+    mainClass.set('org.laboratorio2.controller.Main')
+}
+
+tasks.register('runLab4', JavaExec) {
+    group = 'application'
+    description = 'Ejecuta org.laboratorio4.controller.Main'
+    classpath = sourceSets.main.runtimeClasspath
+    mainClass.set('org.laboratorio4.controller.Main')
 }
 
 test {
