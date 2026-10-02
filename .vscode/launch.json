@@ -1,0 +1,42 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "org.laboratorio2.Test",
+            "projectName": "Laboratorio_POO_GT02"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "org.laboratorio4.controller.Main",
+            "projectName": "Laboratorio_POO_GT02"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "org.laboratorio2.controller.Main",
+            "projectName": "Laboratorio_POO_GT02"
+        },
+        {
+            "type": "java",
+            "name": "Lab 2 - Streaming",
+            "request": "launch",
+            "mainClass": "org.laboratorio2.controller.Main",
+            "projectName": "Laboratorio_POO_GT02",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "Lab 4 - Hotel",
+            "request": "launch",
+            "mainClass": "org.laboratorio4.controller.Main",
+            "projectName": "Laboratorio_POO_GT02",
+            "console": "integratedTerminal"
+        }
+    ]
+}

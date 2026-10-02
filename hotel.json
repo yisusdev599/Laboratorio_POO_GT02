@@ -1,0 +1,30 @@
+[
+  {
+    "tipo": "ESTANDAR",
+    "incluyeDesayuno": true,
+    "numero": 101,
+    "precioBase": 80.0,
+    "ocupada": true
+  },
+  {
+    "tipo": "ESTANDAR",
+    "incluyeDesayuno": false,
+    "numero": 102,
+    "precioBase": 75.0,
+    "ocupada": false
+  },
+  {
+    "tipo": "SUITE_LUJO",
+    "tieneJacuzzi": true,
+    "numero": 201,
+    "precioBase": 250.0,
+    "ocupada": true
+  },
+  {
+    "tipo": "SUITE_LUJO",
+    "tieneJacuzzi": false,
+    "numero": 202,
+    "precioBase": 230.0,
+    "ocupada": false
+  }
+]
